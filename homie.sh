@@ -15,3 +15,4 @@ imonroids(){
 }
 alias clean="git branch | grep -v master -v \* | xargs git branch -D"
 alias undochanges="git checkout ."
+alias switchto="git checkout $1"
