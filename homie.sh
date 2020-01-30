@@ -6,6 +6,9 @@ alias pull="git pull origin"
 alias fetch="git fetch origin"
 alias newbie="git checkout -b $1"
 alias oldbie="git checkout -"
-alias imonroids="git add . && git commit -am '$1' && git push origin"
 alias status="git status"
 alias yossup="git diff ${1:-*}"
+imonroids(){
+    git add . && git commit -am '$1'
+    git push origin
+}
