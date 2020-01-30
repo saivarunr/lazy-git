@@ -9,6 +9,6 @@ alias oldbie="git checkout -"
 alias status="git status"
 alias yossup="git diff ${1:-*}"
 imonroids(){
-    git add . && git commit -am '$1'
+    git add . && git commit -am "$1"
     git push origin
 }
