@@ -40,10 +40,13 @@
 ---
 ### yossup
 - does a git diff.
+---
 ### logs
 - You are right, we are wrong, returns logs.
+---
 ### imonroids
 - Do this only if you are search for a new job, seriously-joking. Commits all changes and pushes to remote, not master, ahem.
+---
 ### clean local
 - Deletes every file and pushes to master. LOL no, cleans local branches except master and current branch
 
