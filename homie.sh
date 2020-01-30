@@ -1,4 +1,4 @@
-alias cb="git branch | grep \*"
+alias cb="git branch | grep \* | sed s/\*/''/g"
 alias commit="git commit -am $1"
 alias commitall="git add . && git commit -am $1"
 alias push="git push origin"
