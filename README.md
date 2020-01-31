@@ -52,3 +52,6 @@
 ---
 ### undochanges
 - Does a git checkout of all files
+---
+### switchto
+- Checkout to a branch
